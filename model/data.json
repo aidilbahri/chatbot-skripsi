@@ -1,27 +1,26 @@
 {
     "intents": [
         {
-            "tag": "greeting",
-            "patterns": ["halo", "hi", "hello", "selamat pagi", "selamat siang", "selamat sore", "selamat malam"],
+            "tag": "noanswer",
+            "patterns": [""],
             "responses": [
-                "Halo! Ada yang bisa saya bantu?",
-                "Hi! Bagaimana saya bisa membantu Anda hari ini?",
-                "Hello! Ada yang ingin ditanyakan?"
+                "Maaf, saya tidak mengerti pertanyaan Anda. Silakan hubungi administrasi sekolah untuk informasi lebih lanjut.",
+                "Mohon maaf, saya tidak bisa menjawab pertanyaan tersebut. Anda bisa menghubungi administrasi sekolah untuk bantuan."
             ],
             "context": [""]
         },
         {
             "tag": "pendaftaran_siswa",
             "patterns": [
-                "bagaimana cara mendaftar di SMP SWASTA AL WASHLIYAH 9 MEDAN?",
+                "bagaimana cara mendaftar di SMP Alwashliyah 5 Belawan?",
                 "prosedur pendaftaran siswa baru",
                 "cara mendaftar di sekolah ini",
                 "pendaftaran siswa baru",
-                "bagaimana cara masuk ke SMP SWASTA AL WASHLIYAH 9 MEDAN"
+                "bagaimana cara masuk ke SMP Alwashliyah 5 Belawan"
             ],
             "responses": [
-                "Untuk mendaftar di SMP SWASTA AL WASHLIYAH 9 MEDAN, Anda bisa datang langsung ke sekolah atau diwakilkan oleh orangtua dengan membawa berkas yang sudah ditentukan.",
-                "Pendaftaran di SMP SWASTA AL WASHLIYAH 9 MEDAN dapat dilakukan dengan mendatangi sekolah secara langsung atau melalui perwakilan orangtua dengan membawa dokumen yang dibutuhkan."
+                "Untuk mendaftar di SMP Alwashliyah 5 Belawan, Anda bisa mengunjungi situs web resmi kami dan mengisi formulir pendaftaran online. Setelah itu, Anda akan dihubungi untuk tahap selanjutnya.",
+                "Prosedur pendaftaran siswa baru di SMP Alwashliyah 5 Belawan meliputi: \n1. Mengisi formulir pendaftaran online di website resmi. \n2. Mengikuti tes seleksi. \n3. Menghadiri wawancara. \n4. Melakukan pembayaran biaya pendaftaran."
             ],
             "context": [""]
         },
@@ -34,8 +33,20 @@
                 "dokumen pendaftaran"
             ],
             "responses": [
-                "Dokumen yang diperlukan untuk pendaftaran adalah: 1. Fotokopi Akta Kelahiran. 2. Fotokopi Kartu Keluarga. 3. Fotokopi Surat Keterangan Lulus.",
-                "Dokumen yang harus disiapkan antara lain: 1. Akta Kelahiran (fotokopi). 2. Kartu Keluarga (fotokopi). 3. Surat Keterangan Lulus (fotokopi)."
+                "Dokumen yang diperlukan untuk pendaftaran adalah: 1. Fotokopi Akta Kelahiran. 2. Fotokopi Kartu Keluarga. 3. Fotokopi Raport SD. 4. Pas Foto 3x4 (4 lembar). 5. Fotokopi KTP orang tua/wali."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "biaya_pendaftaran",
+            "patterns": [
+                "berapa biaya pendaftaran",
+                "biaya masuk sekolah",
+                "biaya pendaftaran di SMP Alwashliyah 5 Belawan",
+                "uang pendaftaran siswa baru"
+            ],
+            "responses": [
+                "Biaya pendaftaran siswa baru di SMP Alwashliyah 5 Belawan adalah sebesar Rp. 500.000. Biaya ini mencakup administrasi pendaftaran dan tes seleksi."
             ],
             "context": [""]
         },
@@ -48,8 +59,7 @@
                 "tanggal pendaftaran siswa baru"
             ],
             "responses": [
-                "Pendaftaran siswa baru di SMP SWASTA AL WASHLIYAH 9 MEDAN dibuka dari libur semester genap hingga selesai libur. Pastikan Anda mendaftar dalam waktu tersebut.",
-                "Jadwal pendaftaran dibuka setiap tahun dari libur semester genap sampai liburan selesai. Silakan mendaftar dalam periode tersebut."
+                "Pendaftaran siswa baru di SMP Alwashliyah 5 Belawan dibuka dari hari libur semester genap hingga selesai libur untuk setiap tahunnya. Pastikan untuk mendaftar dalam rentang waktu tersebut."
             ],
             "context": [""]
         },
@@ -58,12 +68,11 @@
             "patterns": [
                 "tes seleksi pendaftaran",
                 "apa saja yang diujikan dalam tes seleksi",
-                "tes masuk SMP SWASTA AL WASHLIYAH 9 MEDAN",
+                "tes masuk SMP Alwashliyah 5 Belawan",
                 "materi tes seleksi"
             ],
             "responses": [
-                "Tes seleksi pendaftaran meliputi tes membaca alfabet. Tes ini bertujuan untuk menilai kemampuan dasar siswa.",
-                "Seleksi pendaftaran mencakup tes membaca alfabet yang bertujuan untuk mengukur kemampuan siswa dalam membaca."
+                "Tes seleksi pendaftaran meliputi tes membaca alfabet siswa. Tes ini bertujuan untuk mengukur kemampuan siswa."
             ],
             "context": [""]
         },
@@ -76,40 +85,7 @@
                 "kapan hasil tes diumumkan"
             ],
             "responses": [
-                "Hasil seleksi tidak diumumkan, karena pendaftar biasanya akan diterima.",
-                "Pengumuman hasil seleksi tidak ada, karena sebagian besar siswa yang mendaftar akan diterima."
-            ],
-            "context": [""]
-        },
-        {
-            "tag": "fees",
-            "patterns": ["berapa biaya pendaftaran?", "biaya untuk mendaftar", "biaya pendaftaran"],
-            "responses": [
-                "Biaya pendaftaran di SMP SWASTA AL WASHLIYAH 9 MEDAN adalah Rp. 200.000, sudah termasuk SPP bulan Juni.",
-                "Untuk pendaftaran, biaya yang harus dibayarkan adalah Rp. 200.000, yang mencakup SPP bulan pertama."
-            ],
-            "context": [""]
-        },
-        {
-            "tag": "location",
-            "patterns": ["di mana lokasi sekolah?", "alamat sekolah", "lokasi sekolah"],
-            "responses": [
-                "Sekolah berlokasi di Jl. Selebes No. 40 Belawan, Kota Medan, Sumatera Utara.",
-                "Alamat SMP SWASTA AL WASHLIYAH 9 MEDAN adalah Jl. Selebes No. 40 Belawan, Medan, Sumatera Utara."
-            ],
-            "context": [""]
-        },
-        {
-            "tag": "kontak",
-            "patterns": [
-                "kontak sekolah",
-                "nomor telepon SMP SWASTA AL WASHLIYAH 9 MEDAN",
-                "email sekolah",
-                "cara menghubungi sekolah"
-            ],
-            "responses": [
-                "Anda bisa menghubungi kami melalui email di alwashliyah_9medan@yahoo.co.id.sch.id. Kami siap membantu!",
-                "Untuk informasi lebih lanjut, Anda bisa mengirim email ke alwashliyah_9medan@yahoo.co.id.sch.id. Kami akan dengan senang hati menjawab pertanyaan Anda."
+                "Hasil seleksi pendaftaran akan diumumkan dua minggu setelah tes seleksi dilaksanakan. Anda dapat melihat pengumuman di situs web resmi SMP Alwashliyah 5 Belawan atau menghubungi bagian administrasi."
             ],
             "context": [""]
         },
@@ -117,13 +93,74 @@
             "tag": "informasi_umum",
             "patterns": [
                 "informasi tentang sekolah",
-                "profil SMP SWASTA AL WASHLIYAH 9 MEDAN",
+                "profil SMP Alwashliyah 5 Belawan",
                 "tentang sekolah",
                 "informasi umum"
             ],
             "responses": [
-                "SMP SWASTA AL WASHLIYAH 9 MEDAN adalah sekolah swasta yang berlokasi di Belawan, Medan. Kami menawarkan pendidikan berkualitas dengan fasilitas lengkap dan tenaga pengajar profesional.",
-                "Sekolah kami, SMP SWASTA AL WASHLIYAH 9 MEDAN, berada di Belawan, Medan. Kami berkomitmen untuk menyediakan pendidikan berkualitas dengan didukung oleh fasilitas modern dan guru yang kompeten."
+                "SMP Alwashliyah 5 Belawan adalah sekolah swasta yang berlokasi di Belawan. Kami memiliki program pendidikan berkualitas dengan fasilitas lengkap dan tenaga pengajar yang berkompeten."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "kontak",
+            "patterns": [
+                "kontak sekolah",
+                "nomor telepon SMP Alwashliyah 5 Belawan",
+                "email sekolah",
+                "cara menghubungi sekolah"
+            ],
+            "responses": [
+                "Anda dapat menghubungi SMP Alwashliyah 5 Belawan melalui nomor telepon (061) 12345678 atau email di info@alwashliyah5belawan.sch.id. Kami siap membantu Anda!"
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "greeting",
+            "patterns": ["halo", "hi", "hello", "selamat pagi", "selamat siang", "selamat sore"],
+            "responses": [
+                "Halo! Ada yang bisa saya bantu?",
+                "Hi! Bagaimana saya bisa membantu Anda hari ini?",
+                "Hello! Ada pertanyaan tentang pendaftaran?"
+            ],
+            "context": [""]
+        },
+       
+        {
+            "tag": "requirements",
+            "patterns": ["apa saja persyaratan pendaftaran?", "persyaratan untuk mendaftar", "dokumen yang diperlukan untuk mendaftar"],
+            "responses": [
+                "Dokumen yang diperlukan meliputi akta kelahiran, kartu keluarga, dan rapor terakhir.",
+                "Anda perlu menyiapkan akta kelahiran, kartu keluarga, dan rapor terakhir untuk pendaftaran."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "fees",
+            "patterns": ["berapa biaya pendaftaran?", "biaya untuk mendaftar", "biaya pendaftaran"],
+            "responses": [
+                "Biaya pendaftaran adalah Rp 200.000, sudah termasuk uang spp bulan juni.",
+                "Untuk mendaftar, Anda perlu membayar biaya pendaftaran sebesar Rp 200.000, sudah termasuk uang spp bulan juni."
+            ],
+            "context": [""]
+        },
+        
+        {
+            "tag": "scholarship",
+            "patterns": ["apakah ada beasiswa?", "beasiswa yang tersedia", "bagaimana cara mendapatkan beasiswa?"],
+            "responses": [
+                "Sekolah kami menawarkan beberapa beasiswa berdasarkan prestasi akademik dan kebutuhan finansial.",
+                "Anda dapat mengajukan beasiswa dengan melampirkan bukti prestasi akademik dan surat keterangan tidak mampu."
+            ],
+            "context": [""]
+        },
+        
+        {
+            "tag": "location",
+            "patterns": ["di mana lokasi sekolah?", "alamat sekolah", "lokasi sekolah"],
+            "responses": [
+                "Sekolah kami berlokasi di Jalan Merdeka No. 123, Jakarta.",
+                "Alamat sekolah adalah Jalan Merdeka No. 123, Jakarta."
             ],
             "context": [""]
         },
@@ -132,17 +169,8 @@
             "patterns": ["terima kasih", "sampai jumpa", "bye", "selamat tinggal"],
             "responses": [
                 "Sama-sama! Jika ada pertanyaan lain, jangan ragu untuk menghubungi kami.",
-                "Terima kasih! Sampai jumpa dan semoga hari Anda menyenangkan.",
-                "Selamat tinggal! Semoga Anda selalu sehat, sampai jumpa."
-            ],
-            "context": [""]
-        },
-        {
-            "tag": "noanswer",
-            "patterns": [""],
-            "responses": [
-                "Maaf, saya tidak mengerti pertanyaan Anda. Silakan hubungi administrasi sekolah untuk informasi lebih lanjut.",
-                "Mohon maaf, saya tidak bisa menjawab pertanyaan tersebut. Anda bisa menghubungi administrasi sekolah untuk bantuan."
+                "Terima kasih! Sampai jumpa.",
+                "Selamat tinggal! Semoga hari Anda menyenangkan."
             ],
             "context": [""]
         },
