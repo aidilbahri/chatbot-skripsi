@@ -1,0 +1,159 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["halo", "hi", "hello", "selamat pagi", "selamat siang", "selamat sore", "selamat malam"],
+            "responses": [
+                "Halo! Ada yang bisa saya bantu?",
+                "Hi! Bagaimana saya bisa membantu Anda hari ini?",
+                "Hello! Ada yang ingin ditanyakan?"
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "pendaftaran_siswa",
+            "patterns": [
+                "bagaimana cara mendaftar di SMP SWASTA AL WASHLIYAH 9 MEDAN?",
+                "prosedur pendaftaran siswa baru",
+                "cara mendaftar di sekolah ini",
+                "pendaftaran siswa baru",
+                "bagaimana cara masuk ke SMP SWASTA AL WASHLIYAH 9 MEDAN"
+            ],
+            "responses": [
+                "Untuk mendaftar di SMP SWASTA AL WASHLIYAH 9 MEDAN, Anda bisa datang langsung ke sekolah atau diwakilkan oleh orangtua dengan membawa berkas yang sudah ditentukan.",
+                "Pendaftaran di SMP SWASTA AL WASHLIYAH 9 MEDAN dapat dilakukan dengan mendatangi sekolah secara langsung atau melalui perwakilan orangtua dengan membawa dokumen yang dibutuhkan."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "dokumen_pendaftaran",
+            "patterns": [
+                "dokumen yang diperlukan untuk pendaftaran",
+                "apa saja persyaratan dokumen untuk mendaftar",
+                "berkas pendaftaran siswa baru",
+                "dokumen pendaftaran"
+            ],
+            "responses": [
+                "Dokumen yang diperlukan untuk pendaftaran adalah: 1. Fotokopi Akta Kelahiran. 2. Fotokopi Kartu Keluarga. 3. Fotokopi Surat Keterangan Lulus.",
+                "Dokumen yang harus disiapkan antara lain: 1. Akta Kelahiran (fotokopi). 2. Kartu Keluarga (fotokopi). 3. Surat Keterangan Lulus (fotokopi)."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "jadwal_pendaftaran",
+            "patterns": [
+                "kapan jadwal pendaftaran",
+                "jadwal pendaftaran siswa baru",
+                "kapan bisa mendaftar",
+                "tanggal pendaftaran siswa baru"
+            ],
+            "responses": [
+                "Pendaftaran siswa baru di SMP SWASTA AL WASHLIYAH 9 MEDAN dibuka dari libur semester genap hingga selesai libur. Pastikan Anda mendaftar dalam waktu tersebut.",
+                "Jadwal pendaftaran dibuka setiap tahun dari libur semester genap sampai liburan selesai. Silakan mendaftar dalam periode tersebut."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "tes_seleksi",
+            "patterns": [
+                "tes seleksi pendaftaran",
+                "apa saja yang diujikan dalam tes seleksi",
+                "tes masuk SMP SWASTA AL WASHLIYAH 9 MEDAN",
+                "materi tes seleksi"
+            ],
+            "responses": [
+                "Tes seleksi pendaftaran meliputi tes membaca alfabet. Tes ini bertujuan untuk menilai kemampuan dasar siswa.",
+                "Seleksi pendaftaran mencakup tes membaca alfabet yang bertujuan untuk mengukur kemampuan siswa dalam membaca."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "hasil_seleksi",
+            "patterns": [
+                "kapan pengumuman hasil seleksi",
+                "hasil seleksi pendaftaran",
+                "pengumuman hasil tes",
+                "kapan hasil tes diumumkan"
+            ],
+            "responses": [
+                "Hasil seleksi tidak diumumkan, karena pendaftar biasanya akan diterima.",
+                "Pengumuman hasil seleksi tidak ada, karena sebagian besar siswa yang mendaftar akan diterima."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "fees",
+            "patterns": ["berapa biaya pendaftaran?", "biaya untuk mendaftar", "biaya pendaftaran"],
+            "responses": [
+                "Biaya pendaftaran di SMP SWASTA AL WASHLIYAH 9 MEDAN adalah Rp. 200.000, sudah termasuk SPP bulan Juni.",
+                "Untuk pendaftaran, biaya yang harus dibayarkan adalah Rp. 200.000, yang mencakup SPP bulan pertama."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "location",
+            "patterns": ["di mana lokasi sekolah?", "alamat sekolah", "lokasi sekolah"],
+            "responses": [
+                "Sekolah berlokasi di Jl. Selebes No. 40 Belawan, Kota Medan, Sumatera Utara.",
+                "Alamat SMP SWASTA AL WASHLIYAH 9 MEDAN adalah Jl. Selebes No. 40 Belawan, Medan, Sumatera Utara."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "kontak",
+            "patterns": [
+                "kontak sekolah",
+                "nomor telepon SMP SWASTA AL WASHLIYAH 9 MEDAN",
+                "email sekolah",
+                "cara menghubungi sekolah"
+            ],
+            "responses": [
+                "Anda bisa menghubungi kami melalui email di alwashliyah_9medan@yahoo.co.id.sch.id. Kami siap membantu!",
+                "Untuk informasi lebih lanjut, Anda bisa mengirim email ke alwashliyah_9medan@yahoo.co.id.sch.id. Kami akan dengan senang hati menjawab pertanyaan Anda."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "informasi_umum",
+            "patterns": [
+                "informasi tentang sekolah",
+                "profil SMP SWASTA AL WASHLIYAH 9 MEDAN",
+                "tentang sekolah",
+                "informasi umum"
+            ],
+            "responses": [
+                "SMP SWASTA AL WASHLIYAH 9 MEDAN adalah sekolah swasta yang berlokasi di Belawan, Medan. Kami menawarkan pendidikan berkualitas dengan fasilitas lengkap dan tenaga pengajar profesional.",
+                "Sekolah kami, SMP SWASTA AL WASHLIYAH 9 MEDAN, berada di Belawan, Medan. Kami berkomitmen untuk menyediakan pendidikan berkualitas dengan didukung oleh fasilitas modern dan guru yang kompeten."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["terima kasih", "sampai jumpa", "bye", "selamat tinggal"],
+            "responses": [
+                "Sama-sama! Jika ada pertanyaan lain, jangan ragu untuk menghubungi kami.",
+                "Terima kasih! Sampai jumpa dan semoga hari Anda menyenangkan.",
+                "Selamat tinggal! Semoga Anda selalu sehat, sampai jumpa."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [""],
+            "responses": [
+                "Maaf, saya tidak mengerti pertanyaan Anda. Silakan hubungi administrasi sekolah untuk informasi lebih lanjut.",
+                "Mohon maaf, saya tidak bisa menjawab pertanyaan tersebut. Anda bisa menghubungi administrasi sekolah untuk bantuan."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "unknown",
+            "patterns": [],
+            "responses": [
+                "Maaf, saya tidak mengerti pertanyaan Anda. Silakan hubungi administrasi sekolah untuk informasi lebih lanjut.",
+                "Mohon maaf, saya tidak bisa menjawab pertanyaan tersebut. Anda bisa menghubungi administrasi sekolah untuk bantuan."
+            ],
+            "context": [""]
+        }
+    ]
+}
