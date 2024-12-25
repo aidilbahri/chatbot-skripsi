@@ -1,0 +1,288 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "halo",
+                "hi",
+                "hello",
+                "hai",
+                "hei",
+                "selamat pagi",
+                "selamat siang",
+                "selamat sore",
+                "selamat malam",
+                "apa kabar",
+                "assalamualaikum",
+                "salam",
+                "hai bot",
+                "hei bot"
+            ],
+            "responses": [
+                "Halo! Ada yang bisa saya bantu?",
+                "Hi! Bagaimana saya bisa membantu Anda hari ini?",
+                "Hello! Ada yang ingin ditanyakan?",
+                "Selamat datang! Apa yang bisa saya bantu?",
+                "Assalamualaikum! Bagaimana saya bisa membantu Anda?",
+                "Hai! Ada sesuatu yang ingin Anda tanyakan?",
+                "Hei! Saya di sini untuk membantu Anda."
+            ],
+            "context": [""]
+        },
+        
+        {
+            "tag": "pendaftaran_siswa",
+            "patterns": [
+                "bagaimana cara mendaftar di SMP SWASTA AL WASHLIYAH 9 MEDAN?",
+                "prosedur pendaftaran siswa baru",
+                "cara mendaftar di sekolah ini",
+                "pendaftaran siswa baru",
+                "bagaimana cara masuk ke SMP SWASTA AL WASHLIYAH 9 MEDAN",
+                "bagaimana alur pendaftaran siswa baru?",
+                "pendaftaran untuk siswa baru SMP SWASTA AL WASHLIYAH 9 MEDAN",
+                "ingin mendaftar di SMP SWASTA AL WASHLIYAH 9 MEDAN"
+            ],
+            "responses": [
+                "Untuk mendaftar di SMP SWASTA AL WASHLIYAH 9 MEDAN, Anda bisa datang langsung ke sekolah atau diwakilkan oleh orangtua dengan membawa berkas yang sudah ditentukan.",
+                "Pendaftaran di SMP SWASTA AL WASHLIYAH 9 MEDAN dapat dilakukan dengan mendatangi sekolah secara langsung atau melalui perwakilan orangtua dengan membawa dokumen yang dibutuhkan.",
+                "Silakan kunjungi sekolah untuk informasi lebih lanjut mengenai pendaftaran. Jangan lupa membawa dokumen penting seperti KTP, kartu keluarga, dan rapor.",
+                "Pendaftaran siswa baru di SMP SWASTA AL WASHLIYAH 9 MEDAN bisa dilakukan langsung di sekolah. Untuk informasi waktu dan persyaratan, Anda bisa menghubungi pihak sekolah.",
+                "Untuk informasi pendaftaran lebih lengkap, silakan datang ke sekolah atau hubungi kontak resmi SMP SWASTA AL WASHLIYAH 9 MEDAN."
+            ],
+            "context": [""]
+        },
+        
+        {
+            "tag": "dokumen_pendaftaran",
+            "patterns": [
+                "dokumen yang diperlukan untuk pendaftaran",
+                "apa saja persyaratan dokumen untuk mendaftar",
+                "berkas pendaftaran siswa baru",
+                "dokumen pendaftaran",
+                "apa dokumen yang harus disiapkan untuk pendaftaran siswa baru",
+                "dokumen apa yang diperlukan untuk mendaftar",
+                "persyaratan dokumen untuk mendaftar di sekolah",
+                "dokumen yang diperlukan untuk masuk SMP SWASTA AL WASHLIYAH 9 MEDAN",
+                "syarat berkas untuk pendaftaran"
+            ],
+            "responses": [
+                "Dokumen yang diperlukan untuk pendaftaran adalah: 1. Fotokopi Akta Kelahiran. 2. Fotokopi Kartu Keluarga. 3. Fotokopi Surat Keterangan Lulus.",
+                "Dokumen yang harus disiapkan antara lain: 1. Akta Kelahiran (fotokopi). 2. Kartu Keluarga (fotokopi). 3. Surat Keterangan Lulus (fotokopi).",
+                "Berikut adalah dokumen yang perlu Anda siapkan untuk pendaftaran: 1. Akta Kelahiran (fotokopi). 2. Kartu Keluarga (fotokopi). 3. Surat Keterangan Lulus atau Ijazah sementara (fotokopi).",
+                "Untuk pendaftaran, silakan siapkan dokumen berikut: 1. Fotokopi Akta Kelahiran. 2. Fotokopi Kartu Keluarga. 3. Fotokopi Surat Keterangan Lulus atau Ijazah.",
+                "Anda perlu menyiapkan dokumen ini untuk mendaftar: 1. Fotokopi Akta Kelahiran. 2. Fotokopi Kartu Keluarga. 3. Fotokopi Surat Keterangan Lulus dari sekolah sebelumnya."
+            ],
+            "context": [""]
+        },
+        
+        {
+            "tag": "jadwal_pendaftaran",
+            "patterns": [
+                "kapan jadwal pendaftaran",
+                "jadwal pendaftaran siswa baru",
+                "kapan bisa mendaftar",
+                "tanggal pendaftaran siswa baru",
+                "kapan pendaftaran dimulai",
+                "jadwal pendaftaran SMP SWASTA AL WASHLIYAH 9 MEDAN",
+                "kapan waktu pendaftaran siswa baru",
+                "jadwal buka pendaftaran di sekolah ini",
+                "kapan mulai mendaftar di sekolah ini",
+                "kapan pendaftaran siswa baru dibuka"
+            ],
+            "responses": [
+                "Pendaftaran siswa baru di SMP SWASTA AL WASHLIYAH 9 MEDAN dibuka dari libur semester genap hingga selesai libur. Pastikan Anda mendaftar dalam waktu tersebut.",
+                "Jadwal pendaftaran dibuka setiap tahun dari libur semester genap sampai liburan selesai. Silakan mendaftar dalam periode tersebut.",
+                "Untuk pendaftaran siswa baru, jadwal biasanya dimulai saat libur semester genap hingga akhir liburan. Pastikan untuk mengonfirmasi langsung ke pihak sekolah untuk tanggal pastinya.",
+                "Jadwal pendaftaran siswa baru biasanya berlangsung dari libur semester genap hingga liburan selesai. Hubungi pihak sekolah untuk memastikan tanggal yang lebih akurat.",
+                "Pendaftaran dibuka setiap tahun saat libur semester genap. Anda dapat menghubungi sekolah untuk informasi terkini."
+            ],
+            "context": [""]
+        },
+        
+        {
+            "tag": "tes_seleksi",
+            "patterns": [
+                "tes seleksi pendaftaran",
+                "apa saja yang diujikan dalam tes seleksi",
+                "tes masuk SMP SWASTA AL WASHLIYAH 9 MEDAN",
+                "materi tes seleksi",
+                "tes seleksi siswa baru",
+                "apa saja tes yang harus dilalui untuk mendaftar",
+                "ujian seleksi masuk sekolah",
+                "materi ujian tes pendaftaran",
+                "apa tes yang dilakukan saat seleksi masuk",
+                "tes untuk pendaftaran siswa baru"
+            ],
+            "responses": [
+                "Tes seleksi pendaftaran meliputi tes membaca alfabet. Tes ini bertujuan untuk menilai kemampuan dasar siswa.",
+                "Seleksi pendaftaran mencakup tes membaca alfabet yang bertujuan untuk mengukur kemampuan siswa dalam membaca.",
+                "Untuk seleksi pendaftaran, siswa akan mengikuti tes membaca alfabet untuk mengevaluasi kemampuan dasar mereka.",
+                "Materi tes seleksi meliputi tes membaca alfabet untuk memastikan kemampuan membaca siswa sesuai dengan standar.",
+                "Tes yang dilakukan dalam seleksi pendaftaran adalah tes membaca alfabet untuk mengukur keterampilan dasar membaca calon siswa."
+            ],
+            "context": [""]
+        },
+        
+        {
+            "tag": "hasil_seleksi",
+            "patterns": [
+                "kapan pengumuman hasil seleksi",
+                "hasil seleksi pendaftaran",
+                "pengumuman hasil tes",
+                "kapan hasil tes diumumkan",
+                "kapan hasil seleksi diumumkan",
+                "bagaimana cara mengetahui hasil seleksi",
+                "pengumuman seleksi siswa baru",
+                "hasil pendaftaran siswa baru",
+                "apakah ada pengumuman hasil seleksi",
+                "hasil tes masuk SMP SWASTA AL WASHLIYAH 9 MEDAN"
+            ],
+            "responses": [
+                "Hasil seleksi tidak diumumkan, karena pendaftar biasanya akan diterima.",
+                "Pengumuman hasil seleksi tidak ada, karena sebagian besar siswa yang mendaftar akan diterima.",
+                "Sebagian besar pendaftar akan diterima, sehingga tidak ada pengumuman hasil seleksi secara khusus.",
+                "Tidak ada pengumuman hasil seleksi, karena semua pendaftar yang memenuhi persyaratan biasanya diterima.",
+                "Hasil seleksi tidak diumumkan secara khusus karena pendaftar yang memenuhi syarat umumnya langsung diterima."
+            ],
+            "context": [""]
+        },
+        
+        {
+            "tag": "fees",
+            "patterns": [
+                "berapa biaya pendaftaran?",
+                "biaya untuk mendaftar",
+                "biaya pendaftaran",
+                "berapa uang pendaftaran?",
+                "berapa biaya masuk ke sekolah ini?",
+                "apa biaya pendaftaran siswa baru?",
+                "berapa uang masuk SMP SWASTA AL WASHLIYAH 9 MEDAN?",
+                "biaya yang harus dibayarkan untuk mendaftar",
+                "berapa biaya awal untuk mendaftar",
+                "berapa besar biaya pendaftaran"
+            ],
+            "responses": [
+                "Biaya pendaftaran di SMP SWASTA AL WASHLIYAH 9 MEDAN adalah Rp. 200.000, sudah termasuk SPP bulan Juni.",
+                "Untuk pendaftaran, biaya yang harus dibayarkan adalah Rp. 200.000, yang mencakup SPP bulan pertama.",
+                "Biaya pendaftaran sebesar Rp. 200.000. Biaya ini sudah termasuk pembayaran SPP bulan pertama.",
+                "Pendaftaran siswa baru dikenakan biaya sebesar Rp. 200.000, yang mencakup SPP bulan Juni.",
+                "Anda perlu membayar Rp. 200.000 untuk biaya pendaftaran, yang sudah termasuk SPP bulan pertama."
+            ],
+            "context": [""]
+        },
+        
+        {
+            "tag": "location",
+            "patterns": [
+                "di mana lokasi sekolah?",
+                "alamat sekolah",
+                "lokasi sekolah",
+                "dimana SMP SWASTA AL WASHLIYAH 9 MEDAN?",
+                "alamat SMP SWASTA AL WASHLIYAH 9 MEDAN",
+                "sekolah ini beralamat di mana?",
+                "alamat lengkap SMP SWASTA AL WASHLIYAH 9 MEDAN",
+                "lokasi SMP SWASTA AL WASHLIYAH 9 MEDAN",
+                "sekolah ini di mana?"
+            ],
+            "responses": [
+                "Sekolah berlokasi di Jl. Selebes No. 40 Belawan, Kota Medan, Sumatera Utara.",
+                "Alamat SMP SWASTA AL WASHLIYAH 9 MEDAN adalah Jl. Selebes No. 40 Belawan, Medan, Sumatera Utara.",
+                "SMP SWASTA AL WASHLIYAH 9 MEDAN terletak di Jl. Selebes No. 40 Belawan, Kota Medan, Sumatera Utara.",
+                "Lokasi SMP SWASTA AL WASHLIYAH 9 MEDAN berada di Jl. Selebes No. 40, Belawan, Medan, Sumatera Utara.",
+                "Sekolah kami berada di Jl. Selebes No. 40 Belawan, Kota Medan, Sumatera Utara."
+            ],
+            "context": [""]
+        },
+        
+        {
+            "tag": "kontak",
+            "patterns": [
+                "kontak sekolah",
+                "nomor telepon SMP SWASTA AL WASHLIYAH 9 MEDAN",
+                "email sekolah",
+                "cara menghubungi sekolah"
+            ],
+            "responses": [
+                "Anda bisa menghubungi kami melalui email di alwashliyah_9medan@yahoo.co.id.sch.id. Kami siap membantu!",
+                "Untuk informasi lebih lanjut, Anda bisa mengirim email ke alwashliyah_9medan@yahoo.co.id.sch.id. Kami akan dengan senang hati menjawab pertanyaan Anda."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "kontak",
+            "patterns": [
+                "kontak sekolah",
+                "nomor telepon SMP SWASTA AL WASHLIYAH 9 MEDAN",
+                "email sekolah",
+                "cara menghubungi sekolah",
+                "bagaimana cara menghubungi SMP SWASTA AL WASHLIYAH 9 MEDAN?",
+                "nomor telepon untuk menghubungi sekolah",
+                "apa email sekolah ini?",
+                "hubungi SMP SWASTA AL WASHLIYAH 9 MEDAN",
+                "nomor yang bisa dihubungi",
+                "alamat email SMP SWASTA AL WASHLIYAH 9 MEDAN"
+            ],
+            "responses": [
+                "Anda bisa menghubungi kami melalui email di alwashliyah_9medan@yahoo.co.id.sch.id. Kami siap membantu!",
+                "Untuk informasi lebih lanjut, Anda bisa mengirim email ke alwashliyah_9medan@yahoo.co.id.sch.id. Kami akan dengan senang hati menjawab pertanyaan Anda.",
+                "Silakan menghubungi kami melalui email di alwashliyah_9medan@yahoo.co.id.sch.id. Kami siap memberikan bantuan!",
+                "Untuk pertanyaan lebih lanjut, Anda bisa menghubungi kami via email di alwashliyah_9medan@yahoo.co.id.sch.id.",
+                "Anda dapat menghubungi kami melalui email di alwashliyah_9medan@yahoo.co.id.sch.id untuk mendapatkan informasi lebih lanjut."
+            ],
+            "context": [""]
+        },
+        
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "terima kasih",
+                "sampai jumpa",
+                "bye",
+                "selamat tinggal",
+                "terimakasih",
+                "dadah",
+                "sampai bertemu lagi",
+                "selamat malam",
+                "semoga hari Anda menyenankan",
+                "selamat jalan"
+            ],
+            "responses": [
+                "Sama-sama! Jika ada pertanyaan lain, jangan ragu untuk menghubungi kami.",
+                "Terima kasih! Sampai jumpa dan semoga hari Anda menyenangkan.",
+                "Selamat tinggal! Semoga Anda selalu sehat, sampai jumpa.",
+                "Terima kasih sudah menghubungi kami! Semoga hari Anda menyenangkan, sampai jumpa.",
+                "Sampai bertemu lagi! Semoga hari Anda penuh kebahagiaan."
+            ],
+            "context": [""]
+        },
+        
+        {
+            "tag": "noanswer",
+            "patterns": [""],
+            "responses": [
+                "Maaf, saya tidak mengerti pertanyaan Anda. Silakan hubungi administrasi sekolah untuk informasi lebih lanjut.",
+                "Mohon maaf, saya tidak bisa menjawab pertanyaan tersebut. Anda bisa menghubungi administrasi sekolah untuk bantuan.",
+                "Sepertinya saya tidak dapat memahami pertanyaan Anda. Silakan hubungi administrasi sekolah untuk mendapatkan informasi lebih lanjut.",
+                "Saya tidak dapat memahami pertanyaan Anda. Untuk informasi lebih lanjut, Anda dapat menghubungi administrasi sekolah.",
+                "Maaf, saya tidak tahu jawabannya. Anda bisa menghubungi administrasi sekolah untuk informasi lebih lanjut.",
+                "Tampaknya saya kesulitan memahami pertanyaan Anda. Silakan hubungi administrasi sekolah untuk bantuan lebih lanjut.",
+                "Mohon maaf, saya tidak dapat menjawab pertanyaan ini. Anda bisa menghubungi administrasi sekolah untuk bantuan."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "unknown",
+            "patterns": [],
+            "responses": [
+                "Maaf, saya tidak mengerti pertanyaan Anda. Silakan hubungi administrasi sekolah untuk informasi lebih lanjut.",
+                "Mohon maaf, saya tidak bisa menjawab pertanyaan tersebut. Anda bisa menghubungi administrasi sekolah untuk bantuan.",
+                "Sepertinya saya tidak dapat memahami pertanyaan Anda. Silakan hubungi administrasi sekolah untuk mendapatkan informasi lebih lanjut.",
+                "Saya tidak dapat memahami pertanyaan Anda. Untuk informasi lebih lanjut, Anda dapat menghubungi administrasi sekolah.",
+                "Maaf, saya tidak tahu jawabannya. Anda bisa menghubungi administrasi sekolah untuk informasi lebih lanjut.",
+                "Tampaknya saya kesulitan memahami pertanyaan Anda. Silakan hubungi administrasi sekolah untuk bantuan lebih lanjut.",
+                "Mohon maaf, saya tidak dapat menjawab pertanyaan ini. Anda bisa menghubungi administrasi sekolah untuk bantuan."
+            ],
+            "context": [""]
+        }
+    ]
+}
