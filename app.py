@@ -230,18 +230,18 @@ def get_bot_response():
     # Tambahkan logika untuk melihat berkas
     if userText == "/cek_berkas":
         response = "<div>Berikut adalah data dan berkas pendaftaran yang telah kamu unggah:<br>"
-        response += f"Nama: {user_data.get('name', 'N/A')}<br>"
-        response += f"NIP: {user_data.get('nip', 'N/A')}<br>"
-        response += f"Tanggal Lahir: {user_data.get('birth', 'N/A')}<br>"
-        response += f"Alamat: {user_data.get('address', 'N/A')}<br>"
-        response += f"Nomor Telepon: {user_data.get('phone', 'N/A')}<br>"
-        response += "Berkas Pendaftaran<br>"
+        response += f"<div>Nama: {user_data.get('name', 'N/A')}<br>"
+        response += f"<div>NIP: {user_data.get('nip', 'N/A')}<br>"
+        response += f"<div>Tanggal Lahir: {user_data.get('birth', 'N/A')}<br>"
+        response += f"<div>Alamat: {user_data.get('address', 'N/A')}<br>"
+        response += f"<div>Nomor Telepon: {user_data.get('phone', 'N/A')}<br>"
+        response += "<div>Berkas Pendaftaran<br>"
         
         # Menyisipkan tautan gambar jika ada
         images = {
-            'Akta Kelahiran': user_data.get('akta'),
-            'Kartu Keluarga': user_data.get('kk'),
-            'Ijazah': user_data.get('ijazah')
+            '<div>Akta Kelahiran': user_data.get('akta'),
+            '<div>Kartu Keluarga': user_data.get('kk'),
+            '<div>Ijazah': user_data.get('ijazah')
         }
 
         for label, filename in images.items():
