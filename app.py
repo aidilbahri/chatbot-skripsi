@@ -254,7 +254,7 @@ def get_bot_response():
 
     # Tambahkan logika untuk mengunduh data jika pengguna mengetik "/unduh_data"
     if userText == "/unduh_data":
-        return "<div><a href='/unduh_data' target='_blank'>Klik di sini untuk mengunduh data Anda</a></div>"
+        return "<div><a href='/unduh_data' target='_blank'>Klik <a href='/unduh_data' target='_blank'>di sini</a> untuk mengunduh data Anda</div>"
     
     if userText == "/bantuan":
         return (
